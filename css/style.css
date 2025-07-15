@@ -1,3 +1,46 @@
+body {
+    font-family: sans-serif;
+    margin: 0; /* Remove margens padrão do body */
+}
+
+nav {
+    background-color: #333; /* Cor de fundo do menu */
+    color: white; /* Cor do texto do menu */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Limpa o float */
+}
+
+nav li {
+    float: left; /* Itens do menu lado a lado */
+}
+
+nav li a {
+    display: block; /* Ocupa toda a área do <li> */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+nav li a:hover {
+    background-color: #ddd; /* Cor de fundo quando passa o mouse */
+    color: black;
+}
+
+h1 {
+  color: #007bff; /* Cor azul para o título */
+}
+
+p {
+  line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+}
+
 /* Estilo da galeria de portfólio */
 .galeria {
     padding: 2rem;
